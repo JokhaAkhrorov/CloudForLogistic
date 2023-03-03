@@ -1,0 +1,348 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* main styling */
+html,
+body {
+  font-family: sans-serif;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  padding-bottom: 20px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+#navbar {
+  background-color: #333;
+  color: #fff;
+  overflow: auto;
+}
+
+#navbar a {
+  color: #fff;
+}
+#navbar h1 {
+  float: left;
+  padding-top: 6px;
+}
+
+#navbar ul {
+  float: right;
+  list-style: none;
+}
+
+#navbar ul li {
+  float: left;
+}
+
+#navbar ul li a {
+  display: inline-block;
+  padding: 15px;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current {
+  background-color: #444;
+  color: #f7c08a;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.text-primary {
+  color: #8af78e;
+}
+
+.lead {
+  font-size: 20px;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 18px;
+  color: #fff;
+  background-color: #333;
+  padding: 13px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #f7c08a;
+  color: #333;
+}
+
+.btn-light {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.btn-dark {
+  background-color: #333;
+  color: #fff;
+}
+
+.bg-dark {
+  background-color: #333;
+  color: #fff;
+}
+
+.bg-light {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.bg-primary {
+  background-color: #f7c08a;
+  color: #333;
+}
+
+.clr {
+  clear: both;
+}
+
+/* Showcase section */
+#showcase {
+  background-image: url("../img/showcase.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 700px;
+}
+
+#showcase .showcase-content {
+  text-align: center;
+  color: #fff;
+  padding-top: 170px;
+}
+
+#showcase h1 {
+  font-size: 60px;
+}
+
+#showcase p {
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+
+#home-info {
+  height: 400px;
+}
+
+#home-info .info-img {
+  float: left;
+  width: 50%;
+  height: 100%;
+  background-image: url("../img/photo-1.jpg");
+  background-size: 100%;
+  background-size: cover;
+}
+
+#home-info .info-content {
+  float: right;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  padding: 50px 30px;
+}
+
+#home-info .info-content p {
+  padding-bottom: 20px;
+  font-size: 18px;
+}
+
+
+
+
+
+#home-info1 {
+  height: 400px;
+}
+
+#home-info1 .info-img {
+  float: right;
+  width: 50%;
+  height: 100%;
+  background-image: url("../img/logistic-1.gif");
+  background-size: cover;
+  
+}
+
+#home-info1 .info-content {
+  float: left;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  padding: 50px 30px;
+}
+
+#home-info1 .info-content p {
+  padding-bottom: 20px;
+  font-size: 18px;
+}
+
+
+
+#home-info2 {
+  height: 400px;
+}
+
+#home-info2 .info-img {
+  float: left;
+  width: 50%;
+  height: 100%;
+  background-image: url("../img/logistik-2.gif");
+  background-size: 100%;
+ 
+}
+
+#home-info2 .info-content {
+  float: right;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  padding: 50px 30px;
+}
+
+#home-info2 .info-content p {
+  padding-bottom: 20px;
+  font-size: 18px;
+}
+
+
+#home-info3 {
+  height: 400px;
+}
+
+#home-info3 .info-img {
+  float: right;
+  width: 50%;
+  height: 100%;
+  background-image: url("../img/cloud-294.gif");
+  background-size: cover;
+ 
+}
+
+#home-info3 .info-content {
+  float: left;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  padding: 50px 30px;
+}
+
+#home-info3 .info-content p {
+  padding-bottom: 20px;
+  font-size: 18px;
+}
+
+
+/* Features section */
+
+.box {
+  width: 33.3%;
+  float: left;
+  padding: 50px;
+  text-align: center;
+}
+
+.box i {
+  margin-bottom: 10px;
+}
+
+#main-footer {
+  text-align: center;
+  background-color: #444;
+  color: #fff;
+  padding: 20px;
+
+}
+
+.resim {
+  width: 1000px;
+  height: 350px;
+  border-radius: 25px;
+  margin-left: 1cm;
+  
+
+}
+
+.sarlavha {
+  color: #333;
+  font-size: 200%;
+  margin-left: 3cm;
+}
+
+.turlari {
+  width: 1000px;
+  height: 500px;
+  border-radius: 25px;
+  margin-left: 1cm;
+  margin-top: 20px;
+}
+
+.link {
+  color: red;
+  font-style: italic;
+  font-variant-ligatures: normal;
+}
+
+.turlari2 {
+  width: 500px;
+  height: 350px;
+  border-style: double;
+  border-radius: 10%;
+  margin-left: 1cm;
+  margin-top: 20px;
+}
+
+.reklama {
+  width: 350px;
+  height: fit-content;
+}
+
+
+ul#ana li ul{
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 40px;
+  background-color: rgb(24, 20, 20);
+  
+  
+}
+
+ul#ana li:hover ul{
+  display: block;
+}
+
+.linklar {
+  color: blue;
+  text-decoration: underline;
+}
+
+.turlari3 {
+  width: 500px;
+  height: 350px;
+
+  border-radius: 10%;
+  margin-left: 1cm;
+  margin-top: 20px;
+  object-fit: contain;
+}
